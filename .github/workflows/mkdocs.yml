@@ -1,0 +1,32 @@
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]            # bau bei jedem Commit auf main
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write             # erlaubt Push auf gh-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install MkDocs & theme
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build & publish to gh-pages
+        run: |
+          mkdocs gh-deploy --force --clean --remote-branch gh-pages
+        env:
+          # GitHub stellt dieses Token automatisch bereit
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
