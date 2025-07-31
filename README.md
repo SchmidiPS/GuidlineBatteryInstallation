@@ -4,7 +4,7 @@ Dieses Repository bündelt alle wesentlichen Normen, Zertifizierungsprozesse und
 
 Die Seiten liegen im Ordner `docs/` und werden automatisch mit
 [GitHub Pages](https://pages.github.com/) veröffentlicht. Dank MkDocs steht
-links ein Inhaltsverzeichnis zur schnellen Navigation bereit.
+links ein Inhaltsverzeichnis zur schnellen Navigation bereit!
 
 ## Inhalte
 
