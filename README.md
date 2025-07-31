@@ -1,0 +1,2 @@
+# GuidlineBatteryInstallation
+Länderabhängiger Leitfaden für die Planung von Batteriespeicheranlagen
