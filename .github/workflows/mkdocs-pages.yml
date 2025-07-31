@@ -1,0 +1,49 @@
+# .github/workflows/mkdocs-pages.yml
+name: Build and deploy MkDocs site
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+
+permissions:
+  contents: write          # darf in gh-pages pushen
+  pages: write             # darf Pages deployen
+  id-token: write          # für OIDC (Deploy-Pages)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install MkDocs + Material theme
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build MkDocs
+        run: |
+          mkdocs build --strict --site-dir public   # Output → public/
+
+      - name: Upload artifact (for Pages)
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v2
