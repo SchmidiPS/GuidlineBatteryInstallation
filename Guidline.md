@@ -2,7 +2,7 @@
 title: "Leitfaden Batteriespeicher- & PV-Anlagen – Normen & Netzanschluss (DE | AT | CH/LI | HU)"
 revision: "v1.0 (31 Jul 2025)"
 authors:
-  - Ihre Firma / Autorenteam
+  - Aquastream Hungary KFT
 description: >
   Praktische Richtlinie zur Planung, Zertifizierung und zum Netzanschluss
   von stationären Batteriespeichern inklusive PV-Wechselrichter in
@@ -138,10 +138,3 @@ Er richtet sich an Installateure, Planer, Gutachter und Netzbetreiber.
 
 ---
 
-## 7  Git/MkDocs-Workflow (optional)
-
-```bash
-pip install mkdocs mkdocs-material
-mkdocs new batteries-guide
-# Leitfaden .md-Dateien nach docs/ legen
-mkdocs gh-deploy -b gh-pages  # GitHub Pages
