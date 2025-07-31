@@ -1,3 +1,5 @@
+# Leitfaden Batteriespeicher- & PV-Anlagen – Normen & Netzanschluss (DE | AT | CH/LI | HU)
+
 ---
 title: "Leitfaden Batteriespeicher- & PV-Anlagen – Normen & Netzanschluss (DE | AT | CH/LI | HU)"
 revision: "v1.0 (31 Jul 2025)"
