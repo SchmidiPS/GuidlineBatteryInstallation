@@ -1,0 +1,18 @@
+site_name: Leitfaden Batteriespeicher
+site_url: https://schmidips.github.io/GuidlineBatteryInstallation/
+
+docs_dir: docs          # hier liegen Ihre .md-Dateien
+theme:
+  name: material
+  language: de
+  font: false           # verhindert CSP-Font-Fehler
+
+nav:
+  - Startseite: index.md
+  - Internationale Normen: international.md
+  - Deutschland: germany.md
+  - Österreich: austria.md
+  - Schweiz / Liechtenstein: switzerland_li.md
+  - Ungarn: hungary.md
+  - Herstellerinformationen: herstellerinformationen.md
+  - Checkliste: checklist.md
