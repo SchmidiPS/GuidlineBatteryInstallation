@@ -1,0 +1,14 @@
+site_name: Leitfaden Batteriespeicher
+nav:
+  - Startseite: index.md
+  - Internationale Normen: international.md
+  - Deutschland: germany.md
+  - Österreich: austria.md
+  - Schweiz / Liechtenstein: switzerland_li.md
+  - Ungarn: hungary.md
+  - Herstellerinformationen: herstellerinformationen.md
+  - Checkliste: checklist.md
+docs_dir: docs
+theme:
+  name: material
+  language: de
