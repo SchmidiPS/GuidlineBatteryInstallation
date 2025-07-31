@@ -16,3 +16,5 @@
 * AC-gekoppelte Speicher müssen **cos φ = 1** (Blindleistung 0) einhalten
 * **Bidirektionales Laden (V2H)** zulässig seit 01 Jan 2022 – Meldung via TAG
 * Brandschutz: SNR 460712 (2018) & VKF-Merkblatt Lithium-Ionen 2021
+* Anlagenzertifikat bzw. ESTI-Zulassung mit Herstellerangaben erforderlich
+

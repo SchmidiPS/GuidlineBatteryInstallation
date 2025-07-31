@@ -18,3 +18,5 @@ Weitere VDE- und OVE-Dokumente wie **OVE R 11-1** (Photovoltaik) oder **OVE EN 5
 * **Unsymmetriegrenze**: 3,68 kVA pro Phase (gem. TOR)
 * Wechselrichterliste "TOR-konform" (Oesterreichs Energie) prüfen
 * Bei DC-gekoppelten Systemen zählt **Wechselrichter-Nennleistung** als Bemessungsleistung
+* Abnahmeprotokoll nach **OVE E 8101** dem Netzbetreiber übermitteln
+

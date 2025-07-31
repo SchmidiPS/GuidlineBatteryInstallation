@@ -2,16 +2,9 @@
 
 Dieses Repository bündelt alle wesentlichen Normen, Zertifizierungsprozesse und Netzanschlussvorgaben rund um stationäre Batteriespeicher in Deutschland, Österreich, der Schweiz/Liechtenstein und Ungarn. Die Dokumentation wird mit [MkDocs](https://www.mkdocs.org/) gepflegt und bietet ein komfortables Inhaltsverzeichnis.
 
-## Lokale Vorschau
-
-1. Abhängigkeiten installieren (z. B. mit `pip install mkdocs mkdocs-material`)
-2. Dokumentation starten:
-
-```bash
-mkdocs serve
-```
-
-Die Seiten befinden sich im Ordner `docs/`.
+Die Seiten liegen im Ordner `docs/` und werden automatisch mit
+[GitHub Pages](https://pages.github.com/) veröffentlicht. Dank MkDocs steht
+links ein Inhaltsverzeichnis zur schnellen Navigation bereit.
 
 ## Inhalte
 

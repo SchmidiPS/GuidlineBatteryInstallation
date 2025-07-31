@@ -17,6 +17,8 @@ Zusätzlich relevant sind u. a. **VDE 0126-1-1** (NA-Schutz), **VDE-AR-N 4105 Be
 1. **Einheitenzertifikat (EZA)** für Wechselrichter/Speicher – akkreditierte Zertifizierer gemäß FGW TR8/VDE-FNN.
 2. **Anlagenzertifikat (Typ A/B/C/D)** abhängig von Leistung & Spannungsebene.
 3. **Konformitätserklärung** durch akkreditiertes Prüflabor vor Inbetriebnahme.
+4. Herstellerseitige **VDE-Prüfzertifikate** und FNN-Bestätigungen beilegen.
+
 
 ## Planungs­workflow
 
