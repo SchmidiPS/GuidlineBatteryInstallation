@@ -16,3 +16,4 @@
 * **Haushalts-Kleinkraftwerke ≤ 50 kVA** – Genehmigung direkt beim lokalen DSO, keine zentrale MAVIR-Freigabe mehr
 * **Kapazitätsgarantie** für Anlagen > 50 kW: 5 % der Projektkosten als Sicherheit
 * Hersteller müssen Konformität nach **MSZ EN 50549** und HRO-Code nachweisen
+

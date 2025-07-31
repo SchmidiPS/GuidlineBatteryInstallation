@@ -19,6 +19,7 @@ Zusätzlich relevant sind u. a. **VDE 0126-1-1** (NA-Schutz), **VDE-AR-N 4105 Be
 3. **Konformitätserklärung** durch akkreditiertes Prüflabor vor Inbetriebnahme.
 4. Herstellerseitige **VDE-Prüfzertifikate** und FNN-Bestätigungen beilegen.
 
+
 ## Planungs­workflow
 
 1. Lastgang- und Eigenverbrauchsanalyse
